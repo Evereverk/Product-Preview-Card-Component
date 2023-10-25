@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://github.com/Evereverk/Product-Preview-Card-Component.git]
+- Live Site URL: [https://product-preview-card-component-evereverk.vercel.app/]
 
 ## My process
 
@@ -38,4 +38,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Evereverk](https://www.frontendmentor.io/profile/Evereverk)
-- Instagram - [@ever_everk](https://www.twitter.com/ever_everk)
+- Instagram - [@ever_everk](https://www.instagram.com/ever_everk)
