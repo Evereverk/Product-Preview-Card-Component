@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+:root{
+    --primaryDarkCyan: hsl(158, 36%, 37%);
+    --primaryCream: hsl(30, 38%, 92%);
+    --neutralVeryDarkBlue: hsl(212, 21%, 14%);
+    --neutralDarkGrayishBlue: hsl(228, 12%, 48%);
+    --neutralWhite: hsl(0, 0%, 100%);
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body{
+    padding: 1.8rem 1rem;
+    background-color: var(--primaryCream);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-card{
+    max-width: 340px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: var(--neutralWhite);
+}
+.product-image-wrapper img{
+    border-radius: 10px 10px 0 0;
+}
+.product-text-wrapper{
+    height: 65%;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.sub-title{
+    letter-spacing: 0.2rem;
+}
+h1{
+    color: var(--neutralVeryDarkBlue);
+}
+.main-paragraph{
+    line-height: 1.7rem;
+}
+.price-wrapper{
+    display: flex;
+    align-items: center;
+    gap:  1rem;
+    margin-top: 1rem;
+}
+.add-to-cart-btn{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--neutralWhite);
+    margin-top: 0.5rem;
+    background-color: var(--primaryDarkCyan);
+    transition: 0.5s;
+}
+.add-to-cart-btn:hover{
+    background-color: var(--neutralVeryDarkBlue);
+}
+p, del{
+    color: var(--neutralDarkGrayishBlue);
+}
+h2{
+    color: var(--primaryDarkCyan);
+}
+h1, h2{
+    font-family: 'Fraunces', serif;
+    font-size: 230%;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .product-card{
+        display: flex;
+        width: 600px;
+        height: 450px;
+        max-width: 600px;
+    }
+    .product-image-wrapper{
+        width: 50%;
+        height: 100%;
+    }
+    .product-image-wrapper img{
+        border-radius: 10px 0 0 10px;
+    }
+    .product-text-wrapper{
+        width: 50%;
+        height: 100%;
+        padding: 2.3rem 2rem;
+    }
+}
